@@ -1,0 +1,191 @@
+{
+  "Group1": [
+    {
+      "playerFirstName": "Alex",
+      "playerLastName": "Ovechkin",
+      "teamAbbrev": "WAS"
+    },
+    {
+      "playerFirstName": "Jamie",
+      "playerLastName": "Benn",
+      "teamAbbrev": "DAL"
+    },
+    {
+      "playerFirstName": "Patrick",
+      "playerLastName": "Kane",
+      "teamAbbrev": "CHI"
+    },
+    {
+      "playerFirstName": "Ryan",
+      "playerLastName": "Getzlaf",
+      "teamAbbrev": "ANH"
+    },
+    {
+      "playerFirstName": "Sidney",
+      "playerLastName": "Crosby",
+      "teamAbbrev": "PIT"
+    }
+  ],
+  "Group2": [
+    {
+      "playerFirstName": "Derick",
+      "playerLastName": "Brassard",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Evgeny",
+      "playerLastName": "Kuznetsov",
+      "teamAbbrev": "WAS"
+    },
+    {
+      "playerFirstName": "Jeff",
+      "playerLastName": "Carter",
+      "teamAbbrev": "LA"
+    },
+    {
+      "playerFirstName": "Joe",
+      "playerLastName": "Thornton",
+      "teamAbbrev": "SJ"
+    },
+    {
+      "playerFirstName": "Tyler",
+      "playerLastName": "Seguin",
+      "teamAbbrev": "DAL"
+    }
+  ],
+  "Group3": [
+    {
+      "playerFirstName": "Alexander",
+      "playerLastName": "Steen",
+      "teamAbbrev": "STL"
+    },
+    {
+      "playerFirstName": "Corey",
+      "playerLastName": "Perry",
+      "teamAbbrev": "ANH"
+    },
+    {
+      "playerFirstName": "Jakub",
+      "playerLastName": "Voracek",
+      "teamAbbrev": "PHI"
+    },
+    {
+      "playerFirstName": "Jussi",
+      "playerLastName": "Jokinen",
+      "teamAbbrev": "FLA"
+    },
+    {
+      "playerFirstName": "Nicklas",
+      "playerLastName": "Backstrom",
+      "teamAbbrev": "WAS"
+    }
+  ],
+  "Group4": [
+    {
+      "playerFirstName": "Frans",
+      "playerLastName": "Nielsen",
+      "teamAbbrev": "NYI"
+    },
+    {
+      "playerFirstName": "Mikael",
+      "playerLastName": "Granlund",
+      "teamAbbrev": "MIN"
+    },
+    {
+      "playerFirstName": "Ondrej",
+      "playerLastName": "Palat",
+      "teamAbbrev": "TB"
+    },
+    {
+      "playerFirstName": "Patrick",
+      "playerLastName": "Sharp",
+      "teamAbbrev": "DAL"
+    },
+    {
+      "playerFirstName": "Tyler",
+      "playerLastName": "Toffoli",
+      "teamAbbrev": "LA"
+    }
+  ],
+  "Group5": [
+    {
+      "playerFirstName": "Jiri",
+      "playerLastName": "Hudler",
+      "teamAbbrev": "FLA"
+    },
+    {
+      "playerFirstName": "Justin",
+      "playerLastName": "Williams",
+      "teamAbbrev": "WAS"
+    },
+    {
+      "playerFirstName": "Mike",
+      "playerLastName": "Ribeiro",
+      "teamAbbrev": "NSH"
+    },
+    {
+      "playerFirstName": "Ryan",
+      "playerLastName": "Strome",
+      "teamAbbrev": "NYI"
+    },
+    {
+      "playerFirstName": "Thomas",
+      "playerLastName": "Vanek",
+      "teamAbbrev": "MIN"
+    }
+  ],
+  "Group6": [
+    {
+      "playerFirstName": "Brent",
+      "playerLastName": "Burns",
+      "teamAbbrev": "SJ"
+    },
+    {
+      "playerFirstName": "Duncan",
+      "playerLastName": "Keith",
+      "teamAbbrev": "CHI"
+    },
+    {
+      "playerFirstName": "John",
+      "playerLastName": "Klingberg",
+      "teamAbbrev": "DAL"
+    },
+    {
+      "playerFirstName": "Kris",
+      "playerLastName": "Letang",
+      "teamAbbrev": "PIT"
+    },
+    {
+      "playerFirstName": "Victor",
+      "playerLastName": "Hedman",
+      "teamAbbrev": "TB"
+    }
+  ],
+  "Group7": [
+    {
+      "playerFirstName": "Ben",
+      "playerLastName": "Bishop",
+      "teamAbbrev": "TB"
+    },
+    {
+      "playerFirstName": "Braden",
+      "playerLastName": "Holtby",
+      "teamAbbrev": "WAS"
+    },
+    {
+      "playerFirstName": "Corey",
+      "playerLastName": "Crawford",
+      "teamAbbrev": "CHI"
+    },
+    {
+      "playerFirstName": "Jonathan",
+      "playerLastName": "Quick",
+      "teamAbbrev": "LA"
+    },
+    {
+      "playerFirstName": "Roberto",
+      "playerLastName": "Luongo",
+      "teamAbbrev": "FLA"
+    }
+  ]
+}

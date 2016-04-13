@@ -9,6 +9,7 @@ let playersPlayoffs2014 = require('../data/players_playoffs_2014.json').data;
 let playersPlayoffs2015 = require('../data/players_playoffs_2015.json').data;
 
 let playerData = [];
+let playoffPointsBoost = 2;
 
 class AggregatePlayer {
 	constructor() {
@@ -18,9 +19,8 @@ class AggregatePlayer {
 }
 
 (function main() {
-	console.log(playerData);
 	aggregatePlayerData();
-	console.log(playerData);
+  calculatePointsPerGame();
 })()
 
 function aggregatePlayerData() {
@@ -34,5 +34,13 @@ function aggregatePlayerData() {
     playerData.push(aggPlayer);       		
 	});    
 }
+
+function calculatePointsPerGame() {
+  playerData.forEach(player => {
+      
+  });  
+}
+
+
 
 
