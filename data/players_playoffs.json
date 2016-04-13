@@ -376,5 +376,194 @@
       "playerLastName": "Rinne",
       "teamAbbrev": "NSH"
     }
+  ],
+  "Group15": [
+    {
+      "playerFirstName": "Claude",
+      "playerLastName": "Giroux",
+      "teamAbbrev": "PHI"
+    },
+    {
+      "playerFirstName": "Filip",
+      "playerLastName": "Forsberg",
+      "teamAbbrev": "NSH"
+    },
+    {
+      "playerFirstName": "Mats",
+      "playerLastName": "Zuccarello",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Pavel",
+      "playerLastName": "Datsyuk",
+      "teamAbbrev": "DET"
+    },
+    {
+      "playerFirstName": "Zach",
+      "playerLastName": "Parise",
+      "teamAbbrev": "MIN"
+    }
+  ],
+  "Group16": [
+    {
+      "playerFirstName": "Henrik",
+      "playerLastName": "Zetterberg",
+      "teamAbbrev": "DET"
+    },
+    {
+      "playerFirstName": "Jason",
+      "playerLastName": "Spezza",
+      "teamAbbrev": "DAL"
+    },
+    {
+      "playerFirstName": "Joe",
+      "playerLastName": "Pavelski",
+      "teamAbbrev": "SJ"
+    },
+    {
+      "playerFirstName": "Jonathan",
+      "playerLastName": "Toews",
+      "teamAbbrev": "CHI"
+    },
+    {
+      "playerFirstName": "Tyler",
+      "playerLastName": "Johnson",
+      "teamAbbrev": "TB"
+    }
+  ],
+  "Group17": [
+    {
+      "playerFirstName": "Aleksander",
+      "playerLastName": "Barkov",
+      "teamAbbrev": "FLA"
+    },
+    {
+      "playerFirstName": "Derek",
+      "playerLastName": "Stepan",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Logan",
+      "playerLastName": "Couture",
+      "teamAbbrev": "SJ"
+    },
+    {
+      "playerFirstName": "Patric",
+      "playerLastName": "Hornqvist",
+      "teamAbbrev": "PIT"
+    },
+    {
+      "playerFirstName": "Paul",
+      "playerLastName": "Stastny",
+      "teamAbbrev": "STL"
+    }
+  ],
+  "Group18": [
+    {
+      "playerFirstName": "Andrew",
+      "playerLastName": "Ladd",
+      "teamAbbrev": "CHI"
+    },
+    {
+      "playerFirstName": "James",
+      "playerLastName": "Neal",
+      "teamAbbrev": "NSH"
+    },
+    {
+      "playerFirstName": "Rick",
+      "playerLastName": "Nash",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Sean",
+      "playerLastName": "Couturier",
+      "teamAbbrev": "PHI"
+    },
+    {
+      "playerFirstName": "Tomas",
+      "playerLastName": "Hertl",
+      "teamAbbrev": "SJ"
+    }
+  ],
+  "Group19": [
+    {
+      "playerFirstName": "Carl",
+      "playerLastName": "Hagelin",
+      "teamAbbrev": "PIT"
+    },
+    {
+      "playerFirstName": "Eric",
+      "playerLastName": "Staal",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Jakob",
+      "playerLastName": "Silfverberg",
+      "teamAbbrev": "ANH"
+    },
+    {
+      "playerFirstName": "Justin",
+      "playerLastName": "Abdelkader",
+      "teamAbbrev": "DET"
+    },
+    {
+      "playerFirstName": "Patrick",
+      "playerLastName": "Marleau",
+      "teamAbbrev": "SJ"
+    }
+  ],
+  "Group20": [
+    {
+      "playerFirstName": "Aaron",
+      "playerLastName": "Ekblad",
+      "teamAbbrev": "FLA"
+    },
+    {
+      "playerFirstName": "Kevin",
+      "playerLastName": "Shattenkirk",
+      "teamAbbrev": "STL"
+    },
+    {
+      "playerFirstName": "Ryan",
+      "playerLastName": "Suter",
+      "teamAbbrev": "MIN"
+    },
+    {
+      "playerFirstName": "Sami",
+      "playerLastName": "Vatanen",
+      "teamAbbrev": "ANH"
+    },
+    {
+      "playerFirstName": "Shea",
+      "playerLastName": "Weber",
+      "teamAbbrev": "NSH"
+    }
+  ],
+  "Group21": [
+    {
+      "playerFirstName": "Brian",
+      "playerLastName": "Elliott",
+      "teamAbbrev": "STL"
+    },
+    {
+      "playerFirstName": "Devan",
+      "playerLastName": "Dubnyk",
+      "teamAbbrev": "MIN"
+    },
+    {
+      "playerFirstName": "John",
+      "playerLastName": "Gibson",
+      "teamAbbrev": "ANH"
+    },
+    {
+      "playerFirstName": "Petr",
+      "playerLastName": "Mrazek",
+      "teamAbbrev": "DET"
+    },
+    {
+      "playerFirstName": "Thomas",
+      "playerLastName": "Greiss",
+      "teamAbbrev": "NYI"
+    }
   ]  
 }
