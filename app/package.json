@@ -1,0 +1,11 @@
+{
+  "name": "pickempool",
+  "version": "1.0.0",
+  "description": "A utility to calculate best plaers to take in a pickem/box draft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eenewbsauce",
+  "license": "ISC"
+}
