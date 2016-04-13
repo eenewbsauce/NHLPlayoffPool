@@ -11,16 +11,50 @@ let playersPlayoffs2015 = require('../data/players_playoffs_2015.json').data;
 let playerData = [];
 let playoffPointsBoost = 2;
 
-class AggregatePlayer {
-	constructor() {
+class Base {
+  constructor() {
 		this.regular = {};
 		this.playoff = {};		
 	}
 }
 
+class AggregatePlayer extends Base {	
+}
+
+class ComputedValues extends Base {
+  constructor(player) {
+    this.regular.pointsPerGame = player.regular[2016].pointsPerGame;
+    this.playoff.seasons = 0;
+    let totalPlayoffPointsPerGame = 0;
+    
+    if (player.playoff[2015]) {
+      this.playoff.seasons++;
+      totalPlayoffPointsPerGame += player.playoff[2015].pointsPerGame;
+      this.playoff[2015].pointsPerGame = player.playoff[2015].pointsPerGame;
+    }
+    
+    if (player.playoff[2014]) {
+      this.playoff.seasons++;      
+      totalPlayoffPointsPerGame += player.playoff[2014].pointsPerGame;      
+      this.playoff[2014].pointsPerGame = player.playoff[2014].pointsPerGame;
+    }
+    
+    if (player.playoff[2013]) {
+      this.playoff.seasons++;      
+      totalPlayoffPointsPerGame += player.playoff[2013].pointsPerGame;      
+      this.playoff[2013].pointsPerGame = player.playoff[2013].pointsPerGame;
+    }
+    
+    if (this.playoffsPlayed > 0) {
+      this.playoff.pointsPerGame = totalPlayoffPointsPerGame / this.playoff.seasons;
+    }
+  }
+}
+
 (function main() {
 	aggregatePlayerData();
   calculatePointsPerGame();
+  pickPlayerFromEachGroup();
 })()
 
 function aggregatePlayerData() {
@@ -36,11 +70,14 @@ function aggregatePlayerData() {
 }
 
 function calculatePointsPerGame() {
-  playerData.forEach(player => {
-      
+  playerData.forEach(player => {        
+    player.computedValues = new ComputedValues(player);    
   });  
 }
 
+function pickPlayerFromEachGroup() {
+  
+}
 
 
 
