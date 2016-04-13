@@ -187,5 +187,194 @@
       "playerLastName": "Luongo",
       "teamAbbrev": "FLA"
     }
-  ]
+  ],
+  "Group8": [
+    {
+      "playerFirstName": "Anze",
+      "playerLastName": "Kopitar",
+      "teamAbbrev": "LA"
+    },
+    {
+      "playerFirstName": "Jaromir",
+      "playerLastName": "Jagr",
+      "teamAbbrev": "FLA"
+    },
+    {
+      "playerFirstName": "John",
+      "playerLastName": "Tavares",
+      "teamAbbrev": "NYI"
+    },
+    {
+      "playerFirstName": "Nikita",
+      "playerLastName": "Kucherov",
+      "teamAbbrev": "TB"
+    },
+    {
+      "playerFirstName": "Vladimir",
+      "playerLastName": "Tarasenko",
+      "teamAbbrev": "STL"
+    }
+  ],
+  "Group9": [
+    {
+      "playerFirstName": "Artemi",
+      "playerLastName": "Panarin",
+      "teamAbbrev": "CHI"
+    },
+    {
+      "playerFirstName": "Jonathan",
+      "playerLastName": "Huberdeau",
+      "teamAbbrev": "FLA"
+    },
+    {
+      "playerFirstName": "Kyle",
+      "playerLastName": "Okposo",
+      "teamAbbrev": "NYI"
+    },
+    {
+      "playerFirstName": "Phil",
+      "playerLastName": "Kessel",
+      "teamAbbrev": "PIT"
+    },
+    {
+      "playerFirstName": "Ryan",
+      "playerLastName": "Johansen",
+      "teamAbbrev": "NSH"
+    }
+  ],
+  "Group10": [
+    {
+      "playerFirstName": "Brayden",
+      "playerLastName": "Schenn",
+      "teamAbbrev": "PHI"
+    },
+    {
+      "playerFirstName": "Gustav",
+      "playerLastName": "Nyquist",
+      "teamAbbrev": "DET"
+    },
+    {
+      "playerFirstName": "Mikko",
+      "playerLastName": "Koivu",
+      "teamAbbrev": "MIN"
+    },
+    {
+      "playerFirstName": "Milan",
+      "playerLastName": "Lucic",
+      "teamAbbrev": "LA"
+    },
+    {
+      "playerFirstName": "Ryan",
+      "playerLastName": "Kesler",
+      "teamAbbrev": "ANH"
+    }
+  ],
+  "Group11": [
+    {
+      "playerFirstName": "Dylan",
+      "playerLastName": "Larkin",
+      "teamAbbrev": "DET"
+    },
+    {
+      "playerFirstName": "Jaden",
+      "playerLastName": "Schwartz",
+      "teamAbbrev": "STL"
+    },
+    {
+      "playerFirstName": "Jamie",
+      "playerLastName": "McGinn",
+      "teamAbbrev": "ANH"
+    },
+    {
+      "playerFirstName": "T.J.",
+      "playerLastName": "Oshie",
+      "teamAbbrev": "WAS"
+    },
+    {
+      "playerFirstName": "Wayne",
+      "playerLastName": "Simmonds",
+      "teamAbbrev": "PHI"
+    }
+  ],
+  "Group12": [
+    {
+      "playerFirstName": "Alex",
+      "playerLastName": "Killorn",
+      "teamAbbrev": "TB"
+    },
+    {
+      "playerFirstName": "Chris",
+      "playerLastName": "Kunitz",
+      "teamAbbrev": "PIT"
+    },
+    {
+      "playerFirstName": "Cody",
+      "playerLastName": "Eakin",
+      "teamAbbrev": "DAL"
+    },
+    {
+      "playerFirstName": "Kris",
+      "playerLastName": "Versteeg",
+      "teamAbbrev": "LA"
+    },
+    {
+      "playerFirstName": "Tomas",
+      "playerLastName": "Tatar",
+      "teamAbbrev": "DET"
+    }
+  ],
+  "Group13": [
+    {
+      "playerFirstName": "Drew",
+      "playerLastName": "Doughty",
+      "teamAbbrev": "LA"
+    },
+    {
+      "playerFirstName": "John",
+      "playerLastName": "Carlson",
+      "teamAbbrev": "WAS"
+    },
+    {
+      "playerFirstName": "Keith",
+      "playerLastName": "Yandle",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Nick",
+      "playerLastName": "Leddy",
+      "teamAbbrev": "NYI"
+    },
+    {
+      "playerFirstName": "Roman",
+      "playerLastName": "Josi",
+      "teamAbbrev": "NSH"
+    }
+  ],
+  "Group14": [
+    {
+      "playerFirstName": "Henrik",
+      "playerLastName": "Lundqvist",
+      "teamAbbrev": "NYR"
+    },
+    {
+      "playerFirstName": "Kari",
+      "playerLastName": "Lehtonen",
+      "teamAbbrev": "DAL"
+    },
+    {
+      "playerFirstName": "Marc-Andre",
+      "playerLastName": "Fleury",
+      "teamAbbrev": "PIT"
+    },
+    {
+      "playerFirstName": "Martin",
+      "playerLastName": "Jones",
+      "teamAbbrev": "SJ"
+    },
+    {
+      "playerFirstName": "Pekka",
+      "playerLastName": "Rinne",
+      "teamAbbrev": "NSH"
+    }
+  ]  
 }
