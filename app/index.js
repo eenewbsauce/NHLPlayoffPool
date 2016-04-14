@@ -7,6 +7,7 @@ let players = require('../data/players.json').data;
 let playersPlayoffs2013 = require('../data/players_playoffs_2013.json').data;
 let playersPlayoffs2014 = require('../data/players_playoffs_2014.json').data;
 let playersPlayoffs2015 = require('../data/players_playoffs_2015.json').data;
+let playerGroupings = require('../data/players_groupings');
 
 let playerData = [];
 let playoffPointsBoost = 2;
@@ -19,6 +20,11 @@ class Base {
 }
 
 class AggregatePlayer extends Base {	
+  constructor(player) {
+    this.playerFirstName = player.playerFirstName;
+    this.playerLastName = player.playerLastName;
+    this.teamAbbrev = player.teamAbbrev;
+  }
 }
 
 class ComputedValues extends Base {
@@ -47,6 +53,9 @@ class ComputedValues extends Base {
     
     if (this.playoffsPlayed > 0) {
       this.playoff.pointsPerGame = totalPlayoffPointsPerGame / this.playoff.seasons;
+      this.effectivePointsPerGame = (this.playoff.pointsPerGame * playoffPointsBoost + this.regular.pointsPerGame) / 2;
+    } else {
+      this.effectivePointsPerGame = this.regular.pointsPerGame;
     }
   }
 }
@@ -54,12 +63,13 @@ class ComputedValues extends Base {
 (function main() {
 	aggregatePlayerData();
   calculatePointsPerGame();
+  assignAggregatePlayersToPlayerGroupings();
   pickPlayerFromEachGroup();
 })()
 
 function aggregatePlayerData() {
 	players.forEach(player => {
-		let aggPlayer = new AggregatePlayer();    
+		let aggPlayer = new AggregatePlayer(player);    
 		aggPlayer.regular[2016] = player;
 		aggPlayer.playoff[2015] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2015);
 		aggPlayer.playoff[2014] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2014);
@@ -75,8 +85,30 @@ function calculatePointsPerGame() {
   });  
 }
 
-function pickPlayerFromEachGroup() {
+function assignAggregatePlayersToPlayerGroupings() {
+  let groupKeys = R.keys(playerGroupings);
   
+  groupKeys.forEach(key => {
+    playerGroupings[key].forEach(player => {
+      let playerMatch = R.find(pd => {
+        return player.playerFirstName === pd.playerFirstName &&
+          player.playerLastName === pd.playerLastName &&
+          player.teamAbbrev === pd.teamAbbrev;
+      })(playerData);
+      
+      player.aggregatePlayer = playerMatch;
+    })
+  });
+}
+
+function pickPlayerFromEachGroup() {
+  R.map((group, key) => {
+    R.sort((a, b) => {
+      return a.effectivePointsPerGame - b.effectivePointsPerGame;
+    }, group)
+    
+    console.log(`${key}:${group[0].playerFirstName} ${group[0].playerLastName}`)
+  });
 }
 
 
