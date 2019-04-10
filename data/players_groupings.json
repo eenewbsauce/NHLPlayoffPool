@@ -1,569 +1,193 @@
-{
-  "Group1": [
-    {
-      "playerFirstName": "Alex",
-      "playerLastName": "Ovechkin",
-      "teamAbbrev": "WAS"
-    },
-    {
-      "playerFirstName": "Jamie",
-      "playerLastName": "Benn",
-      "teamAbbrev": "DAL"
-    },
-    {
-      "playerFirstName": "Patrick",
-      "playerLastName": "Kane",
-      "teamAbbrev": "CHI"
-    },
-    {
-      "playerFirstName": "Ryan",
-      "playerLastName": "Getzlaf",
-      "teamAbbrev": "ANH"
-    },
-    {
-      "playerFirstName": "Sidney",
-      "playerLastName": "Crosby",
-      "teamAbbrev": "PIT"
+{"group1":[
+    {"playerFirstName":"Patrice","playerLastName":"Bergeron","teamAbbrev":"BOS"},
+    {"playerFirstName":"Nathan","playerLastName":"MacKinnon","teamAbbrev":"COL"},
+    {"playerFirstName":"Sidney","playerLastName":"Crosby","teamAbbrev":"PIT"},
+    {"playerFirstName":"Steven","playerLastName":"Stamkos","teamAbbrev":"TBL"},
+    {"playerFirstName":"John","playerLastName":"Tavares","teamAbbrev":"TOR"},
+    {"playerFirstName":"Mark","playerLastName":"Scheifele","teamAbbrev":"WPG"}
+    ],
+    "group2":[
+    {"playerFirstName":"Jordan","playerLastName":"Staal","teamAbbrev":"CAR"},
+    {"playerFirstName":"Pierre-Luc","playerLastName":"Dubois","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Brock","playerLastName":"Nelson","teamAbbrev":"NYI"},
+    {"playerFirstName":"Joe","playerLastName":"Thornton","teamAbbrev":"SJS"},
+    {"playerFirstName":"Brayden","playerLastName":"Schenn","teamAbbrev":"STL"},
+    {"playerFirstName":"Tyler","playerLastName":"Johnson","teamAbbrev":"TBL"}
+    ],
+    "group3":[
+    {"playerFirstName":"Brad","playerLastName":"Marchand","teamAbbrev":"BOS"},
+    {"playerFirstName":"Artemi","playerLastName":"Panarin","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Johnny","playerLastName":"Gaudreau","teamAbbrev":"CGY"},
+    {"playerFirstName":"Jake","playerLastName":"Guentzel","teamAbbrev":"PIT"},
+    {"playerFirstName":"Nikita","playerLastName":"Kucherov","teamAbbrev":"TBL"},
+    {"playerFirstName":"Alex","playerLastName":"Ovechkin","teamAbbrev":"WSH"}
+    ],
+    "group4":[
+    {"playerFirstName":"Jake","playerLastName":"DeBrusk","teamAbbrev":"BOS"},
+    {"playerFirstName":"Cam","playerLastName":"Atkinson","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Jamie","playerLastName":"Benn","teamAbbrev":"DAL"},
+    {"playerFirstName":"Mikael","playerLastName":"Granlund","teamAbbrev":"NSH"},
+    {"playerFirstName":"Andreas","playerLastName":"Johnsson","teamAbbrev":"TOR"},
+    {"playerFirstName":"Reilly","playerLastName":"Smith","teamAbbrev":"VGK"}
+    ],
+    "group5":[
+    {"playerFirstName":"Andrei","playerLastName":"Svechnikov","teamAbbrev":"CAR"},
+    {"playerFirstName":"Patric","playerLastName":"Hornqvist","teamAbbrev":"PIT"},
+    {"playerFirstName":"Jaden","playerLastName":"Schwartz","teamAbbrev":"STL"},
+    {"playerFirstName":"Zach","playerLastName":"Hyman","teamAbbrev":"TOR"},
+    {"playerFirstName":"Nikolaj","playerLastName":"Ehlers","teamAbbrev":"WPG"},
+    {"playerFirstName":"Jakub","playerLastName":"Vrana","teamAbbrev":"WSH"}
+    ],
+    "group6":[
+    {"playerFirstName":"Charlie","playerLastName":"McAvoy","teamAbbrev":"BOS"},
+    {"playerFirstName":"Dougie","playerLastName":"Hamilton","teamAbbrev":"CAR"},
+    {"playerFirstName":"Seth","playerLastName":"Jones","teamAbbrev":"CBJ"},
+    {"playerFirstName":"P.K.","playerLastName":"Subban","teamAbbrev":"NSH"},
+    {"playerFirstName":"Justin","playerLastName":"Schultz","teamAbbrev":"PIT"},
+    {"playerFirstName":"Dustin","playerLastName":"Byfuglien","teamAbbrev":"WPG"}
+    ],
+    "group7":[
+    {"playerFirstName":"Sean","playerLastName":"Monahan","teamAbbrev":"CGY"},
+    {"playerFirstName":"Evgeni","playerLastName":"Malkin","teamAbbrev":"PIT"},
+    {"playerFirstName":"Logan","playerLastName":"Couture","teamAbbrev":"SJS"},
+    {"playerFirstName":"Brayden","playerLastName":"Point","teamAbbrev":"TBL"},
+    {"playerFirstName":"Auston","playerLastName":"Matthews","teamAbbrev":"TOR"},
+    {"playerFirstName":"Evgeny","playerLastName":"Kuznetsov","teamAbbrev":"WSH"}
+    ],
+    "group8":[
+    {"playerFirstName":"Boone","playerLastName":"Jenner","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Mikael","playerLastName":"Backlund","teamAbbrev":"CGY"},
+    {"playerFirstName":"Carl","playerLastName":"Soderberg","teamAbbrev":"COL"},
+    {"playerFirstName":"Nick","playerLastName":"Bjugstad","teamAbbrev":"PIT"},
+    {"playerFirstName":"Yanni","playerLastName":"Gourde","teamAbbrev":"TBL"},
+    {"playerFirstName":"Jason","playerLastName":"Spezza","teamAbbrev":"DAL"}
+    ],
+    "group9":[
+    {"playerFirstName":"David","playerLastName":"Pastrnak","teamAbbrev":"BOS"},
+    {"playerFirstName":"Matthew","playerLastName":"Tkachuk","teamAbbrev":"CGY"},
+    {"playerFirstName":"Gabriel","playerLastName":"Landeskog","teamAbbrev":"COL"},
+    {"playerFirstName":"Alexander","playerLastName":"Radulov","teamAbbrev":"DAL"},
+    {"playerFirstName":"Mitchell","playerLastName":"Marner","teamAbbrev":"TOR"},
+    {"playerFirstName":"Blake","playerLastName":"Wheeler","teamAbbrev":"WPG"}
+    ],
+    "group10":[
+    {"playerFirstName":"Nino","playerLastName":"Niederreiter","teamAbbrev":"CAR"},
+    {"playerFirstName":"Josh","playerLastName":"Anderson","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Josh","playerLastName":"Bailey","teamAbbrev":"NYI"},
+    {"playerFirstName":"Kevin","playerLastName":"Labanc","teamAbbrev":"SJS"},
+    {"playerFirstName":"Kevin","playerLastName":"Hayes","teamAbbrev":"WPG"},
+    {"playerFirstName":"Tom","playerLastName":"Wilson","teamAbbrev":"WSH"}
+    ],
+    "group11":[
+    {"playerFirstName":"Micheal","playerLastName":"Ferland","teamAbbrev":"CAR"},
+    {"playerFirstName":"Alexander","playerLastName":"Kerfoot","teamAbbrev":"COL"},
+    {"playerFirstName":"Robert","playerLastName":"Thomas","teamAbbrev":"STL"},
+    {"playerFirstName":"Alex","playerLastName":"Killorn","teamAbbrev":"TBL"},
+    {"playerFirstName":"Alex","playerLastName":"Tuch","teamAbbrev":"VGK"},
+    {"playerFirstName":"Jordan","playerLastName":"Eberle","teamAbbrev":"NYI"}
+    ],
+    "group12":[
+    {"playerFirstName":"Zach","playerLastName":"Werenski","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Mattias","playerLastName":"Ekholm","teamAbbrev":"NSH"},
+    {"playerFirstName":"Alex","playerLastName":"Pietrangelo","teamAbbrev":"STL"},
+    {"playerFirstName":"Ryan","playerLastName":"McDonagh","teamAbbrev":"TBL"},
+    {"playerFirstName":"Jake","playerLastName":"Muzzin","teamAbbrev":"TOR"},
+    {"playerFirstName":"Josh","playerLastName":"Morrissey","teamAbbrev":"WPG"}
+    ],
+    "group13":[
+    {"playerFirstName":"Sebastian","playerLastName":"Aho","teamAbbrev":"CAR"},
+    {"playerFirstName":"Tyler","playerLastName":"Seguin","teamAbbrev":"DAL"},
+    {"playerFirstName":"Ryan","playerLastName":"Johansen","teamAbbrev":"NSH"},
+    {"playerFirstName":"Tomas","playerLastName":"Hertl","teamAbbrev":"SJS"},
+    {"playerFirstName":"William","playerLastName":"Karlsson","teamAbbrev":"VGK"},
+    {"playerFirstName":"Nicklas","playerLastName":"Backstrom","teamAbbrev":"WSH"}
+    ],
+    "group14":[
+    {"playerFirstName":"Derek","playerLastName":"Ryan","teamAbbrev":"CGY"},
+    {"playerFirstName":"Tyler","playerLastName":"Bozak","teamAbbrev":"STL"},
+    {"playerFirstName":"J.T.","playerLastName":"Miller","teamAbbrev":"TBL"},
+    {"playerFirstName":"Nazem","playerLastName":"Kadri","teamAbbrev":"TOR"},
+    {"playerFirstName":"Cody","playerLastName":"Eakin","teamAbbrev":"VGK"},
+    {"playerFirstName":"Lars","playerLastName":"Eller","teamAbbrev":"WSH"}
+    ],
+    "group15":[
+    {"playerFirstName":"Teuvo","playerLastName":"Teravainen","teamAbbrev":"CAR"},
+    {"playerFirstName":"Elias","playerLastName":"Lindholm","teamAbbrev":"CGY"},
+    {"playerFirstName":"Mats","playerLastName":"Zuccarello","teamAbbrev":"DAL"},
+    {"playerFirstName":"Filip","playerLastName":"Forsberg","teamAbbrev":"NSH"},
+    {"playerFirstName":"David","playerLastName":"Perron","teamAbbrev":"STL"},
+    {"playerFirstName":"Jonathan","playerLastName":"Marchessault","teamAbbrev":"VGK"}
+    ],
+    "group16":[
+    {"playerFirstName":"Justin","playerLastName":"Williams","teamAbbrev":"CAR"},
+    {"playerFirstName":"Ryan","playerLastName":"Dzingel","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Mikko","playerLastName":"Rantanen","teamAbbrev":"COL"},
+    {"playerFirstName":"Jared","playerLastName":"McCann","teamAbbrev":"PIT"},
+    {"playerFirstName":"Gustav","playerLastName":"Nyquist","teamAbbrev":"SJS"},
+    {"playerFirstName":"T.J.","playerLastName":"Oshie","teamAbbrev":"WSH"}
+    ],
+    "group17":[
+    {"playerFirstName":"Torey","playerLastName":"Krug","teamAbbrev":"BOS"},
+    {"playerFirstName":"Mark","playerLastName":"Giordano","teamAbbrev":"CGY"},
+    {"playerFirstName":"Kris","playerLastName":"Letang","teamAbbrev":"PIT"},
+    {"playerFirstName":"Brent","playerLastName":"Burns","teamAbbrev":"SJS"},
+    {"playerFirstName":"Victor","playerLastName":"Hedman","teamAbbrev":"TBL"},
+    {"playerFirstName":"Morgan","playerLastName":"Rielly","teamAbbrev":"TOR"}
+    ],
+    "group18":[
+    {"playerFirstName":"Justin","playerLastName":"Faulk","teamAbbrev":"CAR"},
+    {"playerFirstName":"Ryan","playerLastName":"Ellis","teamAbbrev":"NSH"},
+    {"playerFirstName":"Ryan","playerLastName":"Pulock","teamAbbrev":"NYI"},
+    {"playerFirstName":"Shea","playerLastName":"Theodore","teamAbbrev":"VGK"},
+    {"playerFirstName":"Tyler","playerLastName":"Myers","teamAbbrev":"WPG"},
+    {"playerFirstName":"Miro","playerLastName":"Heiskanen","teamAbbrev":"DAL"}
+    ],
+    "group19":[
+    {"playerFirstName":"David","playerLastName":"Krejci","teamAbbrev":"BOS"},
+    {"playerFirstName":"Matt","playerLastName":"Duchene","teamAbbrev":"CBJ"},
+    {"playerFirstName":"Mathew","playerLastName":"Barzal","teamAbbrev":"NYI"},
+    {"playerFirstName":"Joe","playerLastName":"Pavelski","teamAbbrev":"SJS"},
+    {"playerFirstName":"Ryan","playerLastName":"O'Reilly","teamAbbrev":"STL"},
+    {"playerFirstName":"Paul","playerLastName":"Stastny","teamAbbrev":"VGK"}
+    ],
+    "group20":[
+    {"playerFirstName":"Charlie","playerLastName":"Coyle","teamAbbrev":"BOS"},
+    {"playerFirstName":"Mark","playerLastName":"Jankowski","teamAbbrev":"CGY"},
+    {"playerFirstName":"Radek","playerLastName":"Faksa","teamAbbrev":"DAL"},
+    {"playerFirstName":"Nick","playerLastName":"Bonino","teamAbbrev":"NSH"},
+    {"playerFirstName":"Anthony","playerLastName":"Cirelli","teamAbbrev":"TBL"},
+    {"playerFirstName":"J.T.","playerLastName":"Compher","teamAbbrev":"COL"}
+    ],
+    "group21":[
+    {"playerFirstName":"Viktor","playerLastName":"Arvidsson","teamAbbrev":"NSH"},
+    {"playerFirstName":"Phil","playerLastName":"Kessel","teamAbbrev":"PIT"},
+    {"playerFirstName":"Timo","playerLastName":"Meier","teamAbbrev":"SJS"},
+    {"playerFirstName":"Vladimir","playerLastName":"Tarasenko","teamAbbrev":"STL"},
+    {"playerFirstName":"Mark","playerLastName":"Stone","teamAbbrev":"VGK"},
+    {"playerFirstName":"Kyle","playerLastName":"Connor","teamAbbrev":"WPG"}
+    ],
+    "group22":[
+    {"playerFirstName":"Anders","playerLastName":"Lee","teamAbbrev":"NYI"},
+    {"playerFirstName":"Evander","playerLastName":"Kane","teamAbbrev":"SJS"},
+    {"playerFirstName":"Ondrej","playerLastName":"Palat","teamAbbrev":"TBL"},
+    {"playerFirstName":"William","playerLastName":"Nylander","teamAbbrev":"TOR"},
+    {"playerFirstName":"Max","playerLastName":"Pacioretty","teamAbbrev":"VGK"},
+    {"playerFirstName":"Patrik","playerLastName":"Laine","teamAbbrev":"WPG"}
+    ],
+    "group23":[
+    {"playerFirstName":"Tyson","playerLastName":"Barrie","teamAbbrev":"COL"},
+    {"playerFirstName":"John","playerLastName":"Klingberg","teamAbbrev":"DAL"},
+    {"playerFirstName":"Roman","playerLastName":"Josi","teamAbbrev":"NSH"},
+    {"playerFirstName":"Erik","playerLastName":"Karlsson","teamAbbrev":"SJS"},
+    {"playerFirstName":"Jacob","playerLastName":"Trouba","teamAbbrev":"WPG"},
+    {"playerFirstName":"John","playerLastName":"Carlson","teamAbbrev":"WSH"}
+    ],
+    "group24":[
+    {"playerFirstName":"Zdeno","playerLastName":"Chara","teamAbbrev":"BOS"},
+    {"playerFirstName":"TJ","playerLastName":"Brodie","teamAbbrev":"CGY"},
+    {"playerFirstName":"Nick","playerLastName":"Leddy","teamAbbrev":"NYI"},
+    {"playerFirstName":"Vince","playerLastName":"Dunn","teamAbbrev":"STL"},
+    {"playerFirstName":"Jake","playerLastName":"Gardiner","teamAbbrev":"TOR"},
+    {"playerFirstName":"Colin","playerLastName":"Miller","teamAbbrev":"VGK"}
+    ]
     }
-  ],
-  "Group2": [
-    {
-      "playerFirstName": "Derick",
-      "playerLastName": "Brassard",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Evgeny",
-      "playerLastName": "Kuznetsov",
-      "teamAbbrev": "WAS"
-    },
-    {
-      "playerFirstName": "Jeff",
-      "playerLastName": "Carter",
-      "teamAbbrev": "LA"
-    },
-    {
-      "playerFirstName": "Joe",
-      "playerLastName": "Thornton",
-      "teamAbbrev": "SJ"
-    },
-    {
-      "playerFirstName": "Tyler",
-      "playerLastName": "Seguin",
-      "teamAbbrev": "DAL"
-    }
-  ],
-  "Group3": [
-    {
-      "playerFirstName": "Alexander",
-      "playerLastName": "Steen",
-      "teamAbbrev": "STL"
-    },
-    {
-      "playerFirstName": "Corey",
-      "playerLastName": "Perry",
-      "teamAbbrev": "ANH"
-    },
-    {
-      "playerFirstName": "Jakub",
-      "playerLastName": "Voracek",
-      "teamAbbrev": "PHI"
-    },
-    {
-      "playerFirstName": "Jussi",
-      "playerLastName": "Jokinen",
-      "teamAbbrev": "FLA"
-    },
-    {
-      "playerFirstName": "Nicklas",
-      "playerLastName": "Backstrom",
-      "teamAbbrev": "WAS"
-    }
-  ],
-  "Group4": [
-    {
-      "playerFirstName": "Frans",
-      "playerLastName": "Nielsen",
-      "teamAbbrev": "NYI"
-    },
-    {
-      "playerFirstName": "Mikael",
-      "playerLastName": "Granlund",
-      "teamAbbrev": "MIN"
-    },
-    {
-      "playerFirstName": "Ondrej",
-      "playerLastName": "Palat",
-      "teamAbbrev": "TB"
-    },
-    {
-      "playerFirstName": "Patrick",
-      "playerLastName": "Sharp",
-      "teamAbbrev": "DAL"
-    },
-    {
-      "playerFirstName": "Tyler",
-      "playerLastName": "Toffoli",
-      "teamAbbrev": "LA"
-    }
-  ],
-  "Group5": [
-    {
-      "playerFirstName": "Jiri",
-      "playerLastName": "Hudler",
-      "teamAbbrev": "FLA"
-    },
-    {
-      "playerFirstName": "Justin",
-      "playerLastName": "Williams",
-      "teamAbbrev": "WAS"
-    },
-    {
-      "playerFirstName": "Mike",
-      "playerLastName": "Ribeiro",
-      "teamAbbrev": "NSH"
-    },
-    {
-      "playerFirstName": "Ryan",
-      "playerLastName": "Strome",
-      "teamAbbrev": "NYI"
-    },
-    {
-      "playerFirstName": "Thomas",
-      "playerLastName": "Vanek",
-      "teamAbbrev": "MIN"
-    }
-  ],
-  "Group6": [
-    {
-      "playerFirstName": "Brent",
-      "playerLastName": "Burns",
-      "teamAbbrev": "SJ"
-    },
-    {
-      "playerFirstName": "Duncan",
-      "playerLastName": "Keith",
-      "teamAbbrev": "CHI"
-    },
-    {
-      "playerFirstName": "John",
-      "playerLastName": "Klingberg",
-      "teamAbbrev": "DAL"
-    },
-    {
-      "playerFirstName": "Kris",
-      "playerLastName": "Letang",
-      "teamAbbrev": "PIT"
-    },
-    {
-      "playerFirstName": "Victor",
-      "playerLastName": "Hedman",
-      "teamAbbrev": "TB"
-    }
-  ],
-  "Group7": [
-    {
-      "playerFirstName": "Ben",
-      "playerLastName": "Bishop",
-      "teamAbbrev": "TB"
-    },
-    {
-      "playerFirstName": "Braden",
-      "playerLastName": "Holtby",
-      "teamAbbrev": "WAS"
-    },
-    {
-      "playerFirstName": "Corey",
-      "playerLastName": "Crawford",
-      "teamAbbrev": "CHI"
-    },
-    {
-      "playerFirstName": "Jonathan",
-      "playerLastName": "Quick",
-      "teamAbbrev": "LA"
-    },
-    {
-      "playerFirstName": "Roberto",
-      "playerLastName": "Luongo",
-      "teamAbbrev": "FLA"
-    }
-  ],
-  "Group8": [
-    {
-      "playerFirstName": "Anze",
-      "playerLastName": "Kopitar",
-      "teamAbbrev": "LA"
-    },
-    {
-      "playerFirstName": "Jaromir",
-      "playerLastName": "Jagr",
-      "teamAbbrev": "FLA"
-    },
-    {
-      "playerFirstName": "John",
-      "playerLastName": "Tavares",
-      "teamAbbrev": "NYI"
-    },
-    {
-      "playerFirstName": "Nikita",
-      "playerLastName": "Kucherov",
-      "teamAbbrev": "TB"
-    },
-    {
-      "playerFirstName": "Vladimir",
-      "playerLastName": "Tarasenko",
-      "teamAbbrev": "STL"
-    }
-  ],
-  "Group9": [
-    {
-      "playerFirstName": "Artemi",
-      "playerLastName": "Panarin",
-      "teamAbbrev": "CHI"
-    },
-    {
-      "playerFirstName": "Jonathan",
-      "playerLastName": "Huberdeau",
-      "teamAbbrev": "FLA"
-    },
-    {
-      "playerFirstName": "Kyle",
-      "playerLastName": "Okposo",
-      "teamAbbrev": "NYI"
-    },
-    {
-      "playerFirstName": "Phil",
-      "playerLastName": "Kessel",
-      "teamAbbrev": "PIT"
-    },
-    {
-      "playerFirstName": "Ryan",
-      "playerLastName": "Johansen",
-      "teamAbbrev": "NSH"
-    }
-  ],
-  "Group10": [
-    {
-      "playerFirstName": "Brayden",
-      "playerLastName": "Schenn",
-      "teamAbbrev": "PHI"
-    },
-    {
-      "playerFirstName": "Gustav",
-      "playerLastName": "Nyquist",
-      "teamAbbrev": "DET"
-    },
-    {
-      "playerFirstName": "Mikko",
-      "playerLastName": "Koivu",
-      "teamAbbrev": "MIN"
-    },
-    {
-      "playerFirstName": "Milan",
-      "playerLastName": "Lucic",
-      "teamAbbrev": "LA"
-    },
-    {
-      "playerFirstName": "Ryan",
-      "playerLastName": "Kesler",
-      "teamAbbrev": "ANH"
-    }
-  ],
-  "Group11": [
-    {
-      "playerFirstName": "Dylan",
-      "playerLastName": "Larkin",
-      "teamAbbrev": "DET"
-    },
-    {
-      "playerFirstName": "Jaden",
-      "playerLastName": "Schwartz",
-      "teamAbbrev": "STL"
-    },
-    {
-      "playerFirstName": "Jamie",
-      "playerLastName": "McGinn",
-      "teamAbbrev": "ANH"
-    },
-    {
-      "playerFirstName": "T.J.",
-      "playerLastName": "Oshie",
-      "teamAbbrev": "WAS"
-    },
-    {
-      "playerFirstName": "Wayne",
-      "playerLastName": "Simmonds",
-      "teamAbbrev": "PHI"
-    }
-  ],
-  "Group12": [
-    {
-      "playerFirstName": "Alex",
-      "playerLastName": "Killorn",
-      "teamAbbrev": "TB"
-    },
-    {
-      "playerFirstName": "Chris",
-      "playerLastName": "Kunitz",
-      "teamAbbrev": "PIT"
-    },
-    {
-      "playerFirstName": "Cody",
-      "playerLastName": "Eakin",
-      "teamAbbrev": "DAL"
-    },
-    {
-      "playerFirstName": "Kris",
-      "playerLastName": "Versteeg",
-      "teamAbbrev": "LA"
-    },
-    {
-      "playerFirstName": "Tomas",
-      "playerLastName": "Tatar",
-      "teamAbbrev": "DET"
-    }
-  ],
-  "Group13": [
-    {
-      "playerFirstName": "Drew",
-      "playerLastName": "Doughty",
-      "teamAbbrev": "LA"
-    },
-    {
-      "playerFirstName": "John",
-      "playerLastName": "Carlson",
-      "teamAbbrev": "WAS"
-    },
-    {
-      "playerFirstName": "Keith",
-      "playerLastName": "Yandle",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Nick",
-      "playerLastName": "Leddy",
-      "teamAbbrev": "NYI"
-    },
-    {
-      "playerFirstName": "Roman",
-      "playerLastName": "Josi",
-      "teamAbbrev": "NSH"
-    }
-  ],
-  "Group14": [
-    {
-      "playerFirstName": "Henrik",
-      "playerLastName": "Lundqvist",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Kari",
-      "playerLastName": "Lehtonen",
-      "teamAbbrev": "DAL"
-    },
-    {
-      "playerFirstName": "Marc-Andre",
-      "playerLastName": "Fleury",
-      "teamAbbrev": "PIT"
-    },
-    {
-      "playerFirstName": "Martin",
-      "playerLastName": "Jones",
-      "teamAbbrev": "SJ"
-    },
-    {
-      "playerFirstName": "Pekka",
-      "playerLastName": "Rinne",
-      "teamAbbrev": "NSH"
-    }
-  ],
-  "Group15": [
-    {
-      "playerFirstName": "Claude",
-      "playerLastName": "Giroux",
-      "teamAbbrev": "PHI"
-    },
-    {
-      "playerFirstName": "Filip",
-      "playerLastName": "Forsberg",
-      "teamAbbrev": "NSH"
-    },
-    {
-      "playerFirstName": "Mats",
-      "playerLastName": "Zuccarello",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Pavel",
-      "playerLastName": "Datsyuk",
-      "teamAbbrev": "DET"
-    },
-    {
-      "playerFirstName": "Zach",
-      "playerLastName": "Parise",
-      "teamAbbrev": "MIN"
-    }
-  ],
-  "Group16": [
-    {
-      "playerFirstName": "Henrik",
-      "playerLastName": "Zetterberg",
-      "teamAbbrev": "DET"
-    },
-    {
-      "playerFirstName": "Jason",
-      "playerLastName": "Spezza",
-      "teamAbbrev": "DAL"
-    },
-    {
-      "playerFirstName": "Joe",
-      "playerLastName": "Pavelski",
-      "teamAbbrev": "SJ"
-    },
-    {
-      "playerFirstName": "Jonathan",
-      "playerLastName": "Toews",
-      "teamAbbrev": "CHI"
-    },
-    {
-      "playerFirstName": "Tyler",
-      "playerLastName": "Johnson",
-      "teamAbbrev": "TB"
-    }
-  ],
-  "Group17": [
-    {
-      "playerFirstName": "Aleksander",
-      "playerLastName": "Barkov",
-      "teamAbbrev": "FLA"
-    },
-    {
-      "playerFirstName": "Derek",
-      "playerLastName": "Stepan",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Logan",
-      "playerLastName": "Couture",
-      "teamAbbrev": "SJ"
-    },
-    {
-      "playerFirstName": "Patric",
-      "playerLastName": "Hornqvist",
-      "teamAbbrev": "PIT"
-    },
-    {
-      "playerFirstName": "Paul",
-      "playerLastName": "Stastny",
-      "teamAbbrev": "STL"
-    }
-  ],
-  "Group18": [
-    {
-      "playerFirstName": "Andrew",
-      "playerLastName": "Ladd",
-      "teamAbbrev": "CHI"
-    },
-    {
-      "playerFirstName": "James",
-      "playerLastName": "Neal",
-      "teamAbbrev": "NSH"
-    },
-    {
-      "playerFirstName": "Rick",
-      "playerLastName": "Nash",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Sean",
-      "playerLastName": "Couturier",
-      "teamAbbrev": "PHI"
-    },
-    {
-      "playerFirstName": "Tomas",
-      "playerLastName": "Hertl",
-      "teamAbbrev": "SJ"
-    }
-  ],
-  "Group19": [
-    {
-      "playerFirstName": "Carl",
-      "playerLastName": "Hagelin",
-      "teamAbbrev": "PIT"
-    },
-    {
-      "playerFirstName": "Eric",
-      "playerLastName": "Staal",
-      "teamAbbrev": "NYR"
-    },
-    {
-      "playerFirstName": "Jakob",
-      "playerLastName": "Silfverberg",
-      "teamAbbrev": "ANH"
-    },
-    {
-      "playerFirstName": "Justin",
-      "playerLastName": "Abdelkader",
-      "teamAbbrev": "DET"
-    },
-    {
-      "playerFirstName": "Patrick",
-      "playerLastName": "Marleau",
-      "teamAbbrev": "SJ"
-    }
-  ],
-  "Group20": [
-    {
-      "playerFirstName": "Aaron",
-      "playerLastName": "Ekblad",
-      "teamAbbrev": "FLA"
-    },
-    {
-      "playerFirstName": "Kevin",
-      "playerLastName": "Shattenkirk",
-      "teamAbbrev": "STL"
-    },
-    {
-      "playerFirstName": "Ryan",
-      "playerLastName": "Suter",
-      "teamAbbrev": "MIN"
-    },
-    {
-      "playerFirstName": "Sami",
-      "playerLastName": "Vatanen",
-      "teamAbbrev": "ANH"
-    },
-    {
-      "playerFirstName": "Shea",
-      "playerLastName": "Weber",
-      "teamAbbrev": "NSH"
-    }
-  ],
-  "Group21": [
-    {
-      "playerFirstName": "Brian",
-      "playerLastName": "Elliott",
-      "teamAbbrev": "STL"
-    },
-    {
-      "playerFirstName": "Devan",
-      "playerLastName": "Dubnyk",
-      "teamAbbrev": "MIN"
-    },
-    {
-      "playerFirstName": "John",
-      "playerLastName": "Gibson",
-      "teamAbbrev": "ANH"
-    },
-    {
-      "playerFirstName": "Petr",
-      "playerLastName": "Mrazek",
-      "teamAbbrev": "DET"
-    },
-    {
-      "playerFirstName": "Thomas",
-      "playerLastName": "Greiss",
-      "teamAbbrev": "NYI"
-    }
-  ]  
-}

@@ -4,8 +4,12 @@
   "description": "A utility to calculate best plaers to take in a pickem/box draft",
   "main": "index.js",
   "scripts": {
+    "start": "node ./app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "eenewbsauce",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
 }

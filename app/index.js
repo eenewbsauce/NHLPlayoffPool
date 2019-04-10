@@ -4,9 +4,9 @@ let teams = require('../data/teams.json').data;
 let teamsPlayoffs = require('../data/teams_playoffs.json').data;
 
 let players = require('../data/players.json').data;
-let playersPlayoffs2013 = require('../data/players_playoffs_2013.json').data;
-let playersPlayoffs2014 = require('../data/players_playoffs_2014.json').data;
-let playersPlayoffs2015 = require('../data/players_playoffs_2015.json').data;
+let playersPlayoffs2016 = require('../data/players_playoffs_2016.json').data;
+let playersPlayoffs2017 = require('../data/players_playoffs_2017.json').data;
+let playersPlayoffs2018 = require('../data/players_playoffs_2018.json').data;
 let playerGroupings = require('../data/players_groupings');
 
 let playerData = [];
@@ -16,9 +16,9 @@ class Base {
   constructor() {
 		this.regular = {};
 		this.playoff = {
-      2013: {},
-      2014: {},
-      2015: {}
+      2016: {},
+      2017: {},
+      2018: {}
     };		
 	}
 }
@@ -35,26 +35,26 @@ class AggregatePlayer extends Base {
 class ComputedValues extends Base {
   constructor(player) {
     super();
-    this.regular.pointsPerGame = player.regular[2016].pointsPerGame;
+    this.regular.pointsPerGame = player.regular[2019].pointsPerGame;
     this.playoff.seasons = 0;
     let totalPlayoffPointsPerGame = 0;
     
-    if (player.playoff[2015]) {
+    if (player.playoff[2018]) {
       this.playoff.seasons++;
-      totalPlayoffPointsPerGame += player.playoff[2015].pointsPerGame;
-      this.playoff[2015].pointsPerGame = player.playoff[2015].pointsPerGame;
+      totalPlayoffPointsPerGame += player.playoff[2018].pointsPerGame;
+      this.playoff[2018].pointsPerGame = player.playoff[2018].pointsPerGame;
     }
     
-    if (player.playoff[2014]) {
+    if (player.playoff[2017]) {
       this.playoff.seasons++;      
-      totalPlayoffPointsPerGame += player.playoff[2014].pointsPerGame;      
-      this.playoff[2014].pointsPerGame = player.playoff[2014].pointsPerGame;
+      totalPlayoffPointsPerGame += player.playoff[2017].pointsPerGame;      
+      this.playoff[2017].pointsPerGame = player.playoff[2017].pointsPerGame;
     }
     
-    if (player.playoff[2013]) {
+    if (player.playoff[2016]) {
       this.playoff.seasons++;      
-      totalPlayoffPointsPerGame += player.playoff[2013].pointsPerGame;      
-      this.playoff[2013].pointsPerGame = player.playoff[2013].pointsPerGame;
+      totalPlayoffPointsPerGame += player.playoff[2016].pointsPerGame;      
+      this.playoff[2016].pointsPerGame = player.playoff[2016].pointsPerGame;
     }
     
     if (this.playoffsPlayed > 0) {
@@ -76,10 +76,10 @@ class ComputedValues extends Base {
 function aggregatePlayerData() {
 	players.forEach(player => {
 		let aggPlayer = new AggregatePlayer(player);    
-		aggPlayer.regular[2016] = player;
-		aggPlayer.playoff[2015] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2015);
-		aggPlayer.playoff[2014] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2014);
-		aggPlayer.playoff[2013] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2013);
+		aggPlayer.regular[2019] = player;
+		aggPlayer.playoff[2018] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2018);
+		aggPlayer.playoff[2017] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2017);
+		aggPlayer.playoff[2016] = R.find(R.propEq('playerId', player.playerId))(playersPlayoffs2016);
     
     playerData.push(aggPlayer);       		
 	});    
